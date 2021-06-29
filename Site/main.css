@@ -1,22 +1,51 @@
 #name {
     text-align: center;
-    color: red
+    font-size: 50px;
 }
 
-h1 {
-    text-align: center;
-    color: red
+#PMP {
+    font-style: italic;
+}
+
+#bodytable tr th {
+    border: 1px solid black;
+}
+
+#skills ul li {
+    text-align: left;
+}
+
+body {
+    padding: 100px;
+    font-family: Helvetica, sans-serif;
+    background-color:rgb(191, 199, 204);
 }
 
 header {
     text-align: center;
-    color: red
+    font-weight: bold;
 }
 
-body {
-    padding: 300px;
+h1 {
+    text-align: center;
 }
 
-.title {
-    color: red
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    font-style: italic;
+}
+
+h4 {
+    font-style: italic;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
 }
