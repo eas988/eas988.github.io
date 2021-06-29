@@ -5,6 +5,7 @@
 
 #PMP {
     font-style: italic;
+    color: red;
     animation: blinker 1s linear infinite;
   }
   
@@ -20,6 +21,12 @@
 
 #skills ul li {
     text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 0px;
+    }
 }
 
 body {
