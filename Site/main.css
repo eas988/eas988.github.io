@@ -5,7 +5,14 @@
 
 #PMP {
     font-style: italic;
-}
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 
 #bodytable tr th {
     border: 1px solid black;
