@@ -23,14 +23,8 @@
     text-align: left;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        padding: 0px;
-    }
-}
-
 body {
-    padding: 100px;
+    /* padding: 0px; */
     font-family: Helvetica, sans-serif;
     background-color:rgb(191, 199, 204);
 }
